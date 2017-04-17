@@ -28,6 +28,7 @@ source: src
 destination: public
 gems:
   - jekyll-feed
+  - jekyll-tidy
 exclude:
   - functions/*
   - Gemfile
