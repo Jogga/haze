@@ -1,0 +1,28 @@
+<footer>
+    <ul>
+        <li>
+            <a href="{% link index.md %}">home</a>
+        </li>
+        <li>
+            <a href="{% link about.md %}">about</a>
+        </li>
+        <li>
+            <a href="{% link subscribe.md %}">subscribe</a>
+        </li>
+        {% if site.mailchimp_user_id and site.mailchimp_list_id %}
+        <li>
+            <a href="http://email.us15.list-manage.com/unsubscribe?u={{ site.mailchimp_user_id }}&id={{ site.mailchimp_list_id }}">unsubscribe</a>
+        </li>
+        {% endif %}
+        {% if site.instagram_username %}
+        <li>
+            <a href="https://www.instagram.com/{{ site.instagram_username}}">instagram</a>
+        </li>
+        {% endif %}
+        {% if site.twitter_username %}
+        <li>
+            <a href="https://twitter.com/{{ site.twitter_username}}">twitter</a>
+        </li>
+        {% endif %}
+    </ul>
+</footer>
