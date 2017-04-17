@@ -20,6 +20,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://haze.email" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: listenhaze
+instagram_username: listenhaze
+mailchimp_user_id: 23359f5bf4d8bf2f708b8fe04
+mailchimp_list_id: bef3229280
 
 # Build settings
 markdown: kramdown
