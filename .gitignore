@@ -2,3 +2,4 @@ public
 .firebaserc
 .sass-cache
 .jekyll-metadata
+*.log

@@ -19,8 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Monthly indie playlists for your favorite streaming services
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://haze.email" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: listenhaze
 
 # Build settings
 markdown: kramdown
