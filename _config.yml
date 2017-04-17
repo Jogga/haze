@@ -23,7 +23,7 @@ twitter_username: listenhaze
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 source: src
 destination: public
 gems:
