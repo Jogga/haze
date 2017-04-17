@@ -25,8 +25,11 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+source: src
+destination: public
 gems:
   - jekyll-feed
 exclude:
+  - functions/*
   - Gemfile
   - Gemfile.lock

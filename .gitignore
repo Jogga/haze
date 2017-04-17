@@ -1,3 +1,4 @@
-_site
+public
+.firebaserc
 .sass-cache
 .jekyll-metadata
