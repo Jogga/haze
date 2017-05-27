@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+class: page-landing
 ---
-# HAZE
-Monthly indie playlists for your favorite streaming services.
+# Monthly playlists of the best<span class="asterisk">*</span> new indie songs. Delivered to your inbox.
+{% include subscribe.html %}
