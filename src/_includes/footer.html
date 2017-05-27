@@ -1,28 +1,31 @@
 <footer>
     <div class="content-container">
-        <ul>
+        <ul class="meta">
             <li>
-                <a href="{% link index.md %}">home</a>
+                <a href="{% link about.md %}">About</a>
             </li>
             <li>
-                <a href="{% link about.md %}">about</a>
-            </li>
-            <li>
-                <a href="{% link subscribe.md %}">subscribe</a>
+                <a href="{% link subscribe.md %}">Subscribe</a>
             </li>
             {% if site.mailchimp_user_id and site.mailchimp_list_id %}
             <li>
-                <a href="http://email.us15.list-manage.com/unsubscribe?u={{ site.mailchimp_user_id }}&id={{ site.mailchimp_list_id }}">unsubscribe</a>
+                <a href="http://email.us15.list-manage.com/unsubscribe?u={{ site.mailchimp_user_id }}&id={{ site.mailchimp_list_id }}">Unsubscribe</a>
             </li>
             {% endif %}
+        </ul>
+        <ul class="social">
             {% if site.instagram_username %}
             <li>
-                <a href="https://www.instagram.com/{{ site.instagram_username}}">instagram</a>
+                <a class="social-logo" href="https://www.instagram.com/{{ site.instagram_username}}">
+                    {% include svg/instagram.svg %}
+                </a>
             </li>
             {% endif %}
             {% if site.twitter_username %}
             <li>
-                <a href="https://twitter.com/{{ site.twitter_username}}">twitter</a>
+                <a class="social-logo" href="https://twitter.com/{{ site.twitter_username}}">
+                    {% include svg/twitter.svg %}
+                </a>
             </li>
             {% endif %}
         </ul>

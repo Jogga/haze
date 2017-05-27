@@ -1,0 +1,44 @@
+.one-line-subscribe {
+    display: flex;
+    max-width: 360px;
+    margin: 3em auto;
+
+    .input-container {
+        position: relative;
+        flex-grow: 1;
+    }
+    
+    input[type="email"] {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px 20px;
+        border: 2px #141419 solid;
+        border-right: 0;
+        margin: 0;
+        font-family: $sans;
+        font-size: 1em;
+    }
+
+    label {
+        box-sizing: border-box;
+        width: 100%;
+        position: absolute;
+        padding: 14px 24px;
+        font-family: $sans;
+        font-size: 1em;
+        color: lightgrey;
+        cursor: text;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        border: none;
+        margin: 0;
+        background: #141419;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: $sans;
+        -webkit-font-smoothing: antialiased;
+    }
+}
