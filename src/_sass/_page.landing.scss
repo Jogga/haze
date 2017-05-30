@@ -1,0 +1,33 @@
+.page-landing {
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+
+        .asterisk {
+            font-size: 0.75em;
+            vertical-align: top;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+    #best-annotated {
+        cursor: pointer;
+        &:hover {
+            background: #fff490;
+        }
+    }
+
+    .footnote {
+        text-align: center;
+        .asterisk {
+            font-size: 1.4em;
+            font-family: $monospace;
+            vertical-align: initial;
+            -webkit-font-smoothing: antialiased;
+            vertical-align: bottom;
+            margin-right: 4px;
+        }
+        .emoji {
+            vertical-align: middle;
+        }
+    }
+}
