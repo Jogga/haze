@@ -3,5 +3,5 @@ public
 .sass-cache
 .jekyll-metadata
 *.log
-
+_config.yml
 src/assets/font/*
