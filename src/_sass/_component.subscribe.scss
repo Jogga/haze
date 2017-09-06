@@ -12,7 +12,7 @@
         box-sizing: border-box;
         width: 100%;
         padding: 12px 20px;
-        border: 2px #141419 solid;
+        border: 2px $black solid;
         border-right: 0;
         margin: 0;
         font-family: $sans;
@@ -26,7 +26,8 @@
         padding: 14px 24px;
         font-family: $sans;
         font-size: 1em;
-        color: lightgrey;
+        line-height: initial;
+        color: $black;
         cursor: text;
     }
 
@@ -34,7 +35,7 @@
         padding: 10px 20px;
         border: none;
         margin: 0;
-        background: #141419;
+        background: $black;
         color: white;
         font-size: 1em;
         font-weight: bold;
