@@ -1,0 +1,25 @@
+---
+---
+{% if jekyll.environment == "production" %}
+
+User-agent: *
+Disallow:
+
+{% elsif jekyll.environment == "staging" %}
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: slurp
+Disallow: /
+
+{% endif %}
