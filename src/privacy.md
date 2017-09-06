@@ -10,15 +10,6 @@ permalink: /privacy/
 Thank you for your interest in the privacy notices for this newsletter. I'd like to inform you thoroughly and transparently on the protection of your personal data.
 
 
-### What to expect from this newsletter
-
-I love to discover and listen to new music. I compile these songs to playlists which I like to publish. The genres I enjoy most are indie rock, electronica, folk, and psychedelic music, but you might encounter the occasional hip-hop or R&B track. I publish the playlists on soundcloud and spotify, but I am not affiliated with these services.
-
-Besides curating the songs, I'll put in the effort to do an artwork for each playlist. I really enjoy doing free, explorative, and creative work.
-
-And by the way: I'm employed as a product designer. This is a side project I do just for fun. I try to send new playlists on the beginning of each month. Don't be mad if I miss one ;)
-
-
 ### Double opt-in and logging
 
 To subscribe to this newsletter you have to do a double opt-in. This means that after submitting your email address on the https://haze.email website, I'll send you a confirmation email. You have to confirm your intention to subscribe to my newsletter by pressing the button in this email. This is a security measure to prevent strangers from signing people up for newsletters that they possibly don't want to receive.
