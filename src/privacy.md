@@ -7,7 +7,7 @@ permalink: /privacy/
 
 ## Newsletter
 
-Thank you for your interest in the privacy notices for this newsletter. I'd like to inform you thoroughly and transparently on the protection of your personal data.
+I'd like to inform you on the protection of your personal data.
 
 
 ### Double opt-in and logging
@@ -23,7 +23,7 @@ I send the haze newsletter with Mailchimp, a service to send email marketing cam
 
 All subscribers' email addresses and other data described in the context of these privacy notices are saved on MailChimp's servers in the USA. MailChimp uses this data to send and analyze the haze newsletter on my instruction. According to the information MailChimp provides, they might use this data to optimize their services, for example to improve delivery and display of emails, or for economical purposes like determining the countries where subscribers are from. MailChimp however won't use your data to contact you and won't give your data to third parties.
 
-I put my trust in the reliability and data safety of MailChimp. MailChimp is certified in the US-EU data protection treaty "privacy shield" and required to respect the EU data protection policy. I also entered into a data processing agreement with MailChimp. This is a contract requiring MailChimp to protect the data of haze subscribers, process the data according to their privacy policy and, most importantly, to not pass the data to third parties. You can review MailChimp's privacy policy [here](https://mailchimp.com/legal/privacy/).
+I put my trust in the reliability and data safety of MailChimp. MailChimp is certified in the US-EU data protection treaty "privacy shield" and required to respect the EU data protection policy. You can review MailChimp's privacy policy [here](https://mailchimp.com/legal/privacy/).
 
 
 ### Credentials
