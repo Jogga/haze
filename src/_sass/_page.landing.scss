@@ -1,6 +1,6 @@
 .page-landing {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: center;
 
         .asterisk {
@@ -28,6 +28,14 @@
         }
         .emoji {
             vertical-align: middle;
+        }
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .page-landing {
+        h1 {
+            font-size: 1.5em;
         }
     }
 }

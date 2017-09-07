@@ -2,10 +2,13 @@
     <div class="content-container">
         <ul class="meta">
             <li>
+                {{ site.copyright_notice }}
+            </li>
+            <li>
                 <a href="{% link about.md %}">About</a>
             </li>
             <li>
-                <a href="{% link subscribe.md %}">Subscribe</a>
+                <a href="{% link privacy.md %}">Privacy</a>
             </li>
             {% if site.mailchimp_user_id and site.mailchimp_list_id %}
             <li>

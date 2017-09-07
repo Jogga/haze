@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto Mono';
-    src: url(./font/roboto-mono.woff2) format('woff2');
+    src: url(../font/roboto-mono.woff2) format('woff2');
     font-weight: 400;
     font-style: normal
 }
@@ -10,10 +10,15 @@ $sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-ser
 
 body {
     font-family: $sans;
+    line-height: 1.6;
     color: $black;
 }
 
 h1, h2, h3 {
     font-family: $monospace;
     font-weight: 400;
+}
+
+a {
+    color: $black;
 }
